@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: auto;
+}
+
+/*only for smartphones in portrait mode */
+@media (min-width: 600px) and (max-width: 1199px) {
+    header {
+        font-size: 30px;
+        font-weight: lighter;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:9px;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        font-family: 'Pacifico', cursive;
+    }
+
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 150px;
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+
+
+    h2 {
+        font-size: 45px;
+        font-weight: lighter;
+    }
+
+    li {
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    img {
+        height: 500px;
+        width: 500px;
+        border: 5px solid black;
+        border-radius: 20px;
+    }
+}

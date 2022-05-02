@@ -24,15 +24,16 @@ body {
 /*only for smartphones in portrait mode */
 @media (min-width: 600px) and (max-width: 1199px) {
     header {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: lighter;
         text-align: center;
-        background-color: black;
-        color: #EEBC1D;
-        padding: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:9px;
         position: fixed;
         width: 100%;
-        font-family:Georgia, 'Times New Roman', Times, serif
+        height: 100px;
+        font-family: 'Pacifico', cursive;
     }
 
     section {
