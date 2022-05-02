@@ -25,7 +25,6 @@ body {
 @media (min-width: 600px) and (max-width: 1199px) {
     header {
         font-size: 30px;
-        font-weight: lighter;
         text-align: center;
         color: rgba(69, 69, 226, 0.959);
         background-color: rgb(233, 222, 222);
@@ -34,6 +33,7 @@ body {
         width: 100%;
         height: 100px;
         font-family: 'Pacifico', cursive;
+        font-weight: lighter;
     }
 
     section {
@@ -42,28 +42,33 @@ body {
         padding: 20px;
     }
 
+    h1 {
+        font-weight: lighter;
+    }
+
     h2 {
-        font-size:45px;
+        font-size:40px;
         font-weight:lighter;
     } 
 
     li {
-        font-size:40px;
+        font-size:45px;
         margin: 20px;
     }
 
 
     footer {
-        margin-top: 200px;
+        margin-top: 150px;
         color: rgba(69, 69, 226, 0.959);
         background-color: rgb(233, 222, 222);
         padding: 20px;
         width: auto;
-        height: 250px;
+        height: auto;
+        line-height: 60px;
     }
 
     h3 {
-        font-size: 50px;
+        font-size: 30px;
         font-weight: lighter;
     }
 }

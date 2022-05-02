@@ -36,6 +36,11 @@ body {
         font-family: 'Pacifico', cursive;
     }
 
+    h1 {
+        font-weight: lighter;
+    }
+
+
 
     section {
         background-color: rgb(187, 215, 233);
