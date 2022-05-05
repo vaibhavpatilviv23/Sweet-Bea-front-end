@@ -61,14 +61,14 @@ body {
 /* only for smartphones in landscape mode*/
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
     header {
-        font-size: 18px;
+        font-size: 15px;
         text-align: center;
         color: rgba(69, 69, 226, 0.959);
         background-color: rgb(233, 222, 222);
         padding:9px;
         position: fixed;
         width: 100%;
-        height: 60px;
+        height:45px;
         font-family: 'Pacifico', cursive;
         font-weight: lighter;
     }
@@ -115,4 +115,38 @@ body {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {}
 
 /*Large devices only (laptops and deskops) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    header {
+        font-size: 13px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:9px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    h2 {
+        font-size:25px;
+        font-weight:lighter;
+    } 
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 100px;
+        padding: 15px;
+    }
+
+    li {
+        font-size:23px;
+        margin: 12px;
+    }
+
+}
