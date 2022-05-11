@@ -21,6 +21,12 @@ body {
     width: auto;
 }
 
+/*limits the li items width to its content only (helps in wrong clicks on desktop sites) */
+li {
+    width: fit-content;
+}
+
+
 /*only for smartphones in portrait mode */
 @media (min-width: 600px) and (max-width: 1199px) {
     header {
