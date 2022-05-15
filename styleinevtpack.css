@@ -145,7 +145,55 @@ li {
 }
 
 /* iPad in portrait and landscape mode */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
+    header {
+        font-size: 13px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:9px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 100px;
+        padding: 15px;
+        margin-bottom: 60px;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    h2 {
+        font-size:25px;
+        font-weight:lighter;
+    } 
+
+    li {
+        font-size:23px;
+        margin: 12px;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+        border: 5px solid black;
+        border-radius: 12px;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        padding: 12px;
+        font-size: 25px;
+    }
+}
 
 /*Large devices only (laptops and deskops) */
 @media (min-width: 1200px) {
@@ -188,6 +236,13 @@ li {
         width: 250px;
         border: 5px solid black;
         border-radius: 12px;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        padding: 12px;
+        font-size: 25px;
     }
 
 }

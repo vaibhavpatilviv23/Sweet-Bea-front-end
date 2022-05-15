@@ -164,6 +164,66 @@ body {
 
 }
 
+/* iPad in portrait and landscape mode */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(233, 222, 222);
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    #aboutusheading {
+        text-align: center;
+    }
+
+    #mainc {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 150px;
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 30px;
+        font-size: 15px;
+        border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    #heading {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #WAL {
+        height: 60px;
+        width: 65px;
+        margin-left: 48%;
+        margin-top: 20px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 12px;
+        margin: 25px 0px 25px 0px;
+        border: 1px black solid;
+        border-radius: 12px;
+        background-color: rgb(233, 222, 222);
+        color:rgba(69, 69, 226, 0.959);
+    }
+
+}
+
 /* Large devices (Desktops and laptops) */
 @media (min-width: 1200px) {
     header {
