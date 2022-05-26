@@ -23,20 +23,19 @@ body {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) and (max-width: 1199px) {
     header {
+        font-size: 30px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
         background-color: rgb(233, 222, 222);
-        height: 100px;
-        width: 100%;
         padding: 9px;
         position: fixed;
-    }
-
-    #brandname {
-        font-size: 60px;
-        color: rgba(69, 69, 226, 0.959);
-        text-align: center;
+        width: 100%;
+        height: 100px;
         font-family: 'Pacifico', cursive;
         font-weight: lighter;
     }
+
+
 
     h1 {
         font-weight: lighter;
@@ -76,10 +75,139 @@ body {
 }
 
 /*Landscape smartphones*/
-@media only screen and (max-height: 575.98px) and (orientation: landscape) {}
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+    header {
+        font-size: 18px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding: 9px;
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+
+section {
+    background-color: rgb(187, 215, 233);
+    margin-top: 100px;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+li {
+    font-size: 28px;
+    margin: 15px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+}
 
 /* iPad in portrait and landscape mode */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
+    header {
+        font-size: 13px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:9px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    h2 {
+        font-size:25px;
+        font-weight:lighter;
+    } 
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin: 100px 0px 60px 0px;
+        padding: 15px;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+        border-radius: 5%;
+        border: 6px solid black;
+    }
+
+    ul {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li {
+        font-size:23px;
+        margin: 12px;
+    }
+}
 
 /*Large devices only (laptops and deskops) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    header {
+        font-size: 13px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:9px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    h2 {
+        font-size:25px;
+        font-weight:lighter;
+    } 
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin: 100px 0px 60px 0px;
+        padding: 15px;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+        border-radius: 5%;
+        border: 6px solid black;
+    }
+
+    ul {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li {
+        font-size:23px;
+        margin: 12px;
+    }
+}

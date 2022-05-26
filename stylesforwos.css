@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+body {
+    width: auto;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width:600px) and (max-width: 1199px) {
+    header {
+        background-color: rgb(233, 222, 222);
+        height: 100px;
+        width: 100%;
+        padding: 9px;
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 60px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+
+    #aboutusheading {
+        text-align: center;
+    }
+
+    main {
+        font-family: 'Courier New', Courier, monospace;
+        height: auto;
+        font-size: 30px;
+        width: auto;
+        padding: 25px;
+        margin-top: 100px;
+        border-radius: 4px;
+        background-color: rgb(187, 215, 233);
+    }
+
+    #aboutus {
+        text-align: center;
+    }
+
+    #mainc {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 300px;
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 30px;
+        font-size: 40px;
+    }
+
+    #heading {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    #WAL {
+        height: 100px;
+        width: 120px;
+        margin-left: 45%;
+        margin-top: 50px;
+    }
+
+    button {
+        font-size: 50px;
+        padding: 20px;
+        margin: 30px 0px 30px 0px;
+        border: 4px black solid;
+        border-radius: 15px;
+        background-color: rgb(233, 222, 222);
+        color:rgba(69, 69, 226, 0.959);
+    }
+}
+
+/* only for smartphones in landscape mode*/
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+    header {
+        background-color: rgb(233, 222, 222);
+        height: 45px;
+        width: 100%;
+        padding: 9px;
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+
+    #aboutusheading {
+        text-align: center;
+    }
+
+    main {
+        font-family: 'Courier New', Courier, monospace;
+        height: auto;
+        font-size: 20px;
+        width: auto;
+        padding: 15px;
+        margin-top: 5px;
+        border-radius: 4px;
+        background-color: rgb(187, 215, 233);
+    }
+
+
+    #mainc {
+        margin-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 30px;
+        font-size: 20px;
+    }
+
+    #heading {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    #WAL {
+        height: 60px;
+        width: 80px;
+        margin-left: 45%;
+        margin-top: 20px;
+    }
+
+    button {
+        font-size: 25px;
+        padding: 12px;
+        margin: 30px 0px 30px 0px;
+        border: 2px black solid;
+        border-radius: 10px;
+        background-color: rgb(233, 222, 222);
+        color:rgba(69, 69, 226, 0.959);
+    }
+
+}
+
+/* iPad in portrait and landscape mode */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(233, 222, 222);
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    #aboutusheading {
+        text-align: center;
+    }
+
+    #mainc {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 150px;
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 30px;
+        font-size: 15px;
+        border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    #heading {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #WAL {
+        height: 60px;
+        width: 65px;
+        margin-left: 48%;
+        margin-top: 20px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 12px;
+        margin: 25px 0px 25px 0px;
+        border: 1px black solid;
+        border-radius: 12px;
+        background-color: rgb(233, 222, 222);
+        color:rgba(69, 69, 226, 0.959);
+    }
+
+}
+
+/* Large devices (Desktops and laptops) */
+@media (min-width: 1200px) {
+    header {
+        width: 100%;
+        height: auto;
+        background-color: rgb(233, 222, 222);
+        position: fixed;
+    }
+
+    #brandname {
+        font-size: 30px;
+        color: rgba(69, 69, 226, 0.959);
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    #aboutusheading {
+        text-align: center;
+    }
+
+    #mainc {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 150px;
+        height: auto;
+        width: auto;
+        background-color: rgb(187, 215, 233);
+        padding: 30px;
+        font-size: 15px;
+        border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    #heading {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #WAL {
+        height: 60px;
+        width: 65px;
+        margin-left: 48%;
+        margin-top: 20px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 12px;
+        margin: 25px 0px 25px 0px;
+        border: 1px black solid;
+        border-radius: 12px;
+        background-color: rgb(233, 222, 222);
+        color:rgba(69, 69, 226, 0.959);
+    }
+
+}

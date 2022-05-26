@@ -38,7 +38,7 @@ body {
 
     section {
         background-color: rgb(187, 215, 233);
-        margin-top: 100px;
+        margin-top: 400px;
         padding: 30px;
         margin-bottom: 100px;
     }
@@ -49,32 +49,15 @@ body {
 
 
     h2 {
+        font-weight: lighter;
         font-size: 50px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
-    .brandlogo {
+    img {
         height: 500px;
-        width: 500px;
-        border-radius: 50%;
-    }
-
-    p {
-        font-size: 40px;
-    }
-
-    .foundersphoto {
-        height: 500px;
+        margin: 50px 0px 50px 0px;
         width: auto;
-        border-radius: 12px;
-        border:black solid 10px;
-    }
-
-    .foundersname {
-        margin-top: 50px;
-    }
-
-    #foundersdetail{
-        margin-top: 0px;
     }
 }
 
@@ -97,52 +80,23 @@ body {
         background-color: rgb(187, 215, 233);
         margin-top: 60px;
         padding: 12px 18px 12px 18px;
+        margin-bottom: 60px;
     }
 
-    .brandlogo {
-        height: 300px;
-        width: 300px;
-    }
-
+    
     h1 {
         font-weight: lighter;
     }
 
     h2 {
-        font-size:30px;
+        font-size:25px;
         font-weight:lighter;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     } 
 
-    p {
-        font-size: 25px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    li {
-        font-size:28px;
-        margin: 15px;
-    }
-
-    .foundersphoto {
-        height: 300px;
+    img {
+        height: 250px;
         width: auto;
-        border-radius: 12px;
-        border:black solid 10px;
-    }
-
-    .foundersname {
-        margin-top: 20px;
-    }
-
-    #foundersdetail{
-        margin-top: 0px;
-        padding: 12px 18px 12px 18px;
-    }
-
-   
-    h3 {
-        font-size: 28px;
-        font-weight: lighter;
     }
 
 }
@@ -165,7 +119,7 @@ body {
     section {
         background-color: rgb(187, 215, 233);
         margin-top: 60px;
-        padding: 10px;
+        padding: 12px;
         margin-bottom: 60px;
     }
 
@@ -173,43 +127,16 @@ body {
         font-weight: lighter;
     }
 
-
     h2 {
         font-size:25px;
         font-weight:lighter;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     } 
 
-
-    .brandlogo {
+    img {
         height: 250px;
-        width: 250px;
-        border-radius: 50%;
-    }
-
-    p {
-        font-size: 25px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    h3 {
-        font-size: 25px;
-        font-weight: lighter;
-    }
-
-    .foundersphoto {
-        height: 300px;
         width: auto;
-        border-radius: 12px;
-        border:black solid 10px;
-    }
-
-    .foundersname {
-        margin-top: 8px;
-    }
-
-    #foundersdetail{
-        margin-top: 0px;
-        padding: 8x 0px 8px 0px;
+        margin: 50px 0px 50px 0px;
     }
 }
 
@@ -231,7 +158,7 @@ body {
     section {
         background-color: rgb(187, 215, 233);
         margin-top: 60px;
-        padding: 10px;
+        padding: 12px;
         margin-bottom: 60px;
     }
 
@@ -239,42 +166,16 @@ body {
         font-weight: lighter;
     }
 
-
     h2 {
         font-size:25px;
         font-weight:lighter;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     } 
 
-
-    .brandlogo {
+    img {
         height: 250px;
-        width: 250px;
-        border-radius: 50%;
-    }
-
-    p {
-        font-size: 25px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    h3 {
-        font-size: 25px;
-        font-weight: lighter;
-    }
-
-    .foundersphoto {
-        height: 300px;
         width: auto;
-        border-radius: 12px;
-        border:black solid 10px;
+        margin: 50px 0px 50px 0px;
     }
 
-    .foundersname {
-        margin-top: 8px;
-    }
-
-    #foundersdetail{
-        margin-top: 0px;
-        padding: 8x 0px 8px 0px;
-    }
 }
