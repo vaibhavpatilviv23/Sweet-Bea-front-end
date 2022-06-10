@@ -11,6 +11,8 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 </style>
+
+
 <body>
     <header>
         <a href="index.html">
@@ -29,6 +31,17 @@
                 <img src="Samosafp.jpg" alt="Samosa">
             </center>
             <li>Samosa:50-70 units @ Rs 20 Per Piece</li>
+
+            <section id="buttonsview">
+                <button onclick="lessPrice" id="pricebuttons">-</button> 
+                <button onclick="addPrice" id="pricebuttons">+</button>
+            </section>
+
+            <h3>Total units:<span id="unitsview"></span></h3>
+            <h3>Total price of units:<span id="priceview"></span></h3>
+
+            <script src="price.js"></script>
+
             <br>
             <center>
                 <img src="Batata Vada Addobe.jpg" alt="Batata Vada">
