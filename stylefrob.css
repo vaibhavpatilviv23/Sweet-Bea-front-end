@@ -136,10 +136,114 @@ body {
 
 /* iPad in portrait and landscape mode */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
-    
+    header {
+        font-size:20px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:4px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 100px;
+        padding: 18px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        padding: 12px;
+        border: 3px black solid;
+        border-radius: 7px;
+        background-color: rgb(134, 134, 206);
+        color: white;
+        margin: 12px 0px 12px 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    .porimg {
+        height: 500px;
+        width: auto;
+        margin: 20px 0px 20px 0px;
+        border: 8px solid black;
+        border-radius: 10px;
+    }
 }
 
-/* iPad in portrait and landscape mode */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
+/*Large devices only (laptops and deskops) */
+@media (min-width: 1200px) {
+    header {
+        font-size:20px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:4px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
 
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 100px;
+        padding: 18px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        padding: 12px;
+        border: 3px black solid;
+        border-radius: 7px;
+        background-color: rgb(134, 134, 206);
+        color: white;
+        margin: 12px 0px 12px 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    .porimg {
+        height: 500px;
+        width: auto;
+        margin: 20px 0px 20px 0px;
+        border: 8px solid black;
+        border-radius: 10px;
+    }
 }
